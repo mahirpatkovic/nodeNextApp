@@ -49,7 +49,7 @@ Installation
 - Install server side dependencies: npm install
 - Navigate to the client directory
 - Install client side dependencies: npm install
-- Set up the environment variables: Create a .env file and configure your database and JWT settings.
+- Set up the environment variables: Create a .env file and create new db, configure it and also JWT settings in the env file
 
 Start the application:
 - server - npm run dev -> http://localhost:8800
