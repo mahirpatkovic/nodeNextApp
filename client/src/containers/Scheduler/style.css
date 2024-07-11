@@ -1,0 +1,51 @@
+.rbc-header {
+    background: #bae0ff;
+}
+
+.rbc-event {
+    background: #bae0ff;
+    color: #000000;
+    border-radius: 0;
+    height: 80px;
+}
+
+.rbc-row-content .rbc-row:nth-child(n + 3) {
+    display: none;
+}
+
+.rbc-event.rbc-selected {
+    background: #bae0ff;
+}
+
+.rbc-day-slot .rbc-events-container {
+    width: 100%;
+}
+
+.rbc-day-slot .rbc-event {
+    border: 1px solid #1677ff;
+}
+
+.rbc-current-time-indicator {
+    background: #ff0000;
+    /* background:  #1677FF; */
+}
+
+.rbc-today {
+    background: #f9f7f2;
+}
+
+.rbc-today .rbc-time-slot:nth-child(even) {
+    border-top: 1px solid #bae0ff;
+}
+
+.rbc-month-view {
+    min-height: 580px;
+}
+
+.rbc-allday-cell {
+    display: none;
+}
+
+.rbc-time-content {
+    border-top: 1px solid #ddd;
+}
